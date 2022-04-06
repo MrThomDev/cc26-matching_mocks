@@ -5,32 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matching Mocks</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="form_box">
-        <header>
+    <div id="formBox">
+        <header id="accHead">
             <h1>New Account</h1>
         </header>
-      <form>
+      <form id="accForm">
           <div id="nameDiv">
-            <label for="name">Name </label>
-            <input type="text" name="name" id="name" required>
+            <label for="name" class="labelText">Name </label>
+            <input type="text" name="name" id="name" class="formIn" required>
           </div>
           <div id="emailDiv">
-            <label for="email">Email </label>
-            <input type="email" name="email" id="email" required>
+            <label for="email" class="labelText">Email </label>
+            <input type="email" name="email" id="email" class="formIn" required>
           </div>
           <div id="pass1Div">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="pass1In" required>
-              <p id="pass1Text">Error text</p>
+              <label for="password" class="labelText">Password</label>
+              <input type="password" name="password" id="pass1In" class="formIn" required>
+              <p id="pass1Text" class="errorText">12 or more combination of letters, numbers, and symbols</p>
           </div>
           <div id="passConDiv">
-            <label for="passwordconfirm">Password (again)</label>
-            <input type="password" name="passwordconfirm" id="passConIn" required>
-            <p id="passConText">Error text</p>
+            <label for="passwordconfirm" class="labelText">Password (again)</label>
+            <input type="password" name="passwordconfirm" id="passConIn" class="formIn" required>
           </div>
-          <div>
+          <div class="btnDiv">
               <input type="submit" value="Create Account" id="submit">
           </div>
         <!-- <button id="submit">Create Account</button> -->

@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap");
+
+body {
+  background-color: #e5e5e5;
+}
+
+h1 {
+  text-align: center;
+  margin-top: auto;
+  color: white;
+  font-family: Inter;
+  font-size: 1.6em;
+  font-weight: 700;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  /* line-height: 16px; */
+  /* letter-spacing: 0em; */
+}
+
+/* label,
+input {
+  display: flex;
+  flex-direction: column;
+} */
+
+label {
+  margin-bottom: 1.5%;
+  margin-left: 0.4%;
+}
+
+input {
+  margin-bottom: 5%;
+  width: 100%;
+  border-radius: 2%;
+  font-size: 2.3em;
+}
+
+a {
+  color: black;
+  font-family: inter;
+}
+
+footer {
+  font-size: 0.7em;
+  padding: 5%;
+  text-align: center;
+}
+
+#formBox {
+  /* max-width: 25%; */
+  margin: auto;
+  background-color: white;
+  height: 100%;
+  width: 30%;
+  min-width: 200px;
+}
+
+#accHead {
+  background-color: #492140;
+  height: 33%;
+  width: 100%;
+}
+
+#accForm {
+  padding: 4% 8%;
+}
+
+#submit {
+  background-color: #da1bb0;
+  color: white;
+  font-family: Inter;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5em;
+  letter-spacing: 0.01em;
+  padding: 4% 8%;
+  border-radius: 0.3em;
+  border: 0;
+  margin-bottom: 0;
+}
+
+.labelText {
+  font-family: Inter;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1em;
+  text-align: left;
+}
+
+.formIn {
+  opacity: 0.16;
+  border: 1px solid #171717;
+  box-sizing: border-box;
+  border-radius: 0.2em;
+}
+
+.errorText {
+  color: #ff0000;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 0.7em;
+  font-weight: 500;
+  text-align: left;
+}
